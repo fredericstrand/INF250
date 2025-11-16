@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['rumex']
+
+roboflow:
+  workspace: frederic-0m5zq
+  project: rumex-fk5yo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/frederic-0m5zq/rumex-fk5yo/dataset/1
